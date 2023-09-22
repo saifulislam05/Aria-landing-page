@@ -1,0 +1,76 @@
+/* --- Open Sans font family ---  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common classes */
+.container{
+    padding:2.125rem 5rem ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------Header Section Start------ */
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url(/assets/images/header-background.jpg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left-side{
+    color: white;
+    width: 7.65rem;
+}
+.nav-right-side {
+    display: flex;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li a{
+    font-size: 0.875rem;
+    color: rgb(244, 252, 250);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+}
+.nav-items li a i{
+    color: white;
+}
+
+.social-icons{
+    display: flex;
+}
+.social-icons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1.6rem ;
+    height:1.6rem ;
+    color: white;
+    margin-left: .3rem;
+    background: url('/assets/images/hexagon-green.svg') no-repeat;
+    background-size: contain;
+}
+
+.social-icons a svg{
+ font-size: 0.875rem;
+}
+
