@@ -32,6 +32,13 @@ h2 {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
+h4 {
+    color: #484a46;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    
+}
 p {
      color: #787976;
      font-size: 1rem;
@@ -171,7 +178,8 @@ nav{
 .intro{
     padding:6.875rem 0 3rem 0;
 }
-.intro .wrapper{
+/* intro-1 start from here  */
+.intro .intro-1{
     display: flex;
     justify-content: space-between;
 }
@@ -192,7 +200,7 @@ nav{
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
-.intro .wrapper .image-box{
+.intro .intro-1 .image-box{
     width: 55%;
     overflow: hidden;
     border-radius: 0.25rem;
@@ -201,7 +209,7 @@ nav{
     -ms-border-radius: 0.25rem;
     -o-border-radius: 0.25rem;
 }
-.intro .wrapper .image-box img{
+.intro .intro-1 .image-box img{
     width: 100%;
     transition: all .3s;
     -webkit-transition: all .3s;
@@ -209,12 +217,42 @@ nav{
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
-.intro .wrapper .image-box img:hover{
+.intro .intro-1 .image-box img:hover{
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
+}
+/* - cards-wrapper starts form here  */
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2.875rem;
+}
+.cards-wrapper .card{
+    max-width: 21rem;
+}
+.cards-wrapper .card .icon-box{
+    width: 6rem;
+    height: 6rem;
+    background: url(/assets/images/hexagon-green.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:6rem 6rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.cards-wrapper .card .icon-box svg{
+    font-size: 2rem;
+    color: var(--white);
+}
+.cards-wrapper .card .card-title{
+    margin-bottom: 0.875rem;
 }
 /* ------Intro Section End------ */
 
