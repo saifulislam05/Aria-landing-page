@@ -103,9 +103,15 @@ nav{
     margin-left: .3rem;
     background: url('/assets/images/hexagon-green.svg') no-repeat;
     background-size: contain;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
 }
 .social-icons a:hover{
-    background: url('/assets/images/hexagon-white.svg');
+    background: url('/assets/images/hexagon-white.svg')no-repeat;
+    background-size: contain;
     color: var(--primary-color);
 }
 .social-icons a svg{
