@@ -27,17 +27,20 @@ body{
     margin: 0 auto;
     color: #484a46;
 }
-h2 {
-    font-size: 1.75rem;
+h2 ,h3,h4{
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
+}
+h2 {
+    font-size: 1.75rem; 
+}
+h3 {
+    color: #484a46;
+    font-size: 1.375rem;
 }
 h4 {
     color: #484a46;
     font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    
 }
 p {
      color: #787976;
@@ -47,6 +50,10 @@ p {
 }
 a{
     text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 .section-title{
     color: var(--primary-color);
@@ -256,4 +263,95 @@ nav{
 }
 /* ------Intro Section End------ */
 
+/* ------Services Section Start------ */
+.services{
+    padding-top: 6.625rem ;
+    padding-bottom: 6.25rem;
+    background: #fbfbfb;
+}
+.services .section-title{
+    text-align: center;
+}
+.services h2{
+    text-align: center;
+    margin-bottom: 3.25rem;
+}
+.services-card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.services-card-wrapper .card{
+    max-width: 20.875rem;
+    background:#fff ;
+    border: 1px solid #ebe8e8;
+    border-radius:0.375rem;
+    -webkit-border-radius:0.375rem;
+    -moz-border-radius:0.375rem;
+    -ms-border-radius:0.375rem;
+    -o-border-radius:0.375rem;
+}
+.card-image{
+    overflow: hidden;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+
+    width: 100%;
+}
+.card-body{
+    width: 100%;
+    padding: 2.25rem 2rem; 
+}
+.card-body .card-title{
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+.card-body p{
+    margin-bottom: 1rem;
+}
+.card-body ul{
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+.card-body ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.375rem;
+}
+.card-body ul li svg{
+    color: var(--primary-color);
+    font-size: 0.5rem;
+    margin-right: 0.625rem;
+}
+.card-body .price{
+    color: #484a46;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.card-body .price span{
+    color: var(--primary-color);
+}
+.card .button-container{
+    margin-top: -1.375rem;
+    text-align: center;
+}
+.card .button-container .btn{
+    padding: .7rem 1.875rem;
+    background: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border: 0.125rem solid var(--primary-color);
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+/* ------Services Section End------ */
 
