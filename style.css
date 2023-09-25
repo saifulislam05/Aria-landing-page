@@ -355,3 +355,75 @@ nav{
 }
 /* ------Services Section End------ */
 
+/* ------Accordian Section Start------ */
+.accordian{
+    width: 100%;
+    display: flex;
+}
+.accordian .image-side{
+    width: 50%;
+    height: inherit;
+    background: url(/assets/images/accrodian-1bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.accordian .content-side{
+    width: 50%;
+}
+.accordian .accordion-container{
+    padding-top: 6.375rem;
+    width: 88%;
+    max-width: 28rem;
+    margin-left: 5rem;
+}
+.accordian h2{
+    margin-bottom: 1.625rem;
+}
+.accordian .content-side .item{
+    margin-bottom: 2rem;
+}
+.accordian-heading .circle-numbering{
+    display: inline-block;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-right: 0.875rem;
+    border: 0.125rem solid #484a46;
+    border-radius: 50%;
+    color: #484a46;
+    font: 700 1rem/2.125rem "Montserrat",sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.accordian-heading .accordion-title {
+    display: inline-block;
+    margin-top: 0.125rem;
+    margin-bottom: 0.25rem;
+    color: #484a46;
+    font-size:1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.2s ease
+}
+.accordion-para{
+    margin-left: 3.125rem;
+}
+
+.active .accordian-heading .circle-numbering{
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--white);
+}
+.active .accordian-heading .accordion-title{
+    color: var(--primary-color);
+}
+/* ------Accordian Section End------ */
