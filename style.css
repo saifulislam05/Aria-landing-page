@@ -1101,6 +1101,41 @@ nav {
     color: #787976;
     text-decoration: underline;
 }
-
-
 /* ----Contact section End---- */
+
+/* ----Footer section Start---- */
+footer {
+    padding-top: 5rem;
+    background-color: #113448
+}
+.footer-content-wrapper{
+    width: 100%;
+    display: flex;
+}
+.footer-content-wrapper .about-aria{
+    width: 50%;
+}
+.footer-content-wrapper .about-aria p{
+    color: #dfe5ec;
+}
+.footer-content-wrapper .footer-navs-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content-wrapper h4{
+    color: var(--white);
+    margin-bottom: 0.75rem;
+}
+.footer-content-wrapper .footer-navs-wrapper a{
+    color: #dfe5ec;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: .5rem;
+}
+.copy-rights{
+    color: #dfe5ec;
+    text-align: center;
+    margin-top: 3rem;
+}
+/* ----Footer section End---- */
