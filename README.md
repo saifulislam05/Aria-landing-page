@@ -101,3 +101,46 @@
 #### Hovered Social Icons (`.social-icons a:hover`)
 - `background: url('/assets/images/hexagon-white.svg') no-repeat;`: Changes the background image on hover.
 - `color: var(--primary-color);`: Changes the text color on hover.
+
+### Hero Section
+
+#### Hero Container (`section.hero`)
+- `padding-top: 14.75rem;` and `padding-bottom: 17.75rem;`: Sets the top and bottom padding of the hero section.
+- `background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/assets/images/header-background.jpg);`: Applies a background gradient overlay and an image background to the hero section.
+- `background-repeat: no-repeat;`: Prevents the background image from repeating.
+- `background-size: cover;`: Scales the background image to cover the entire container.
+- `background-position: center;`: Centers the background image horizontally and vertically.
+
+#### Text Container (`div.text-container`)
+- `margin: 6.5rem auto 3rem auto;`: Sets margins for the text container.
+- `text-align: center;`: Centers the text within the container.
+
+#### Heading (`h1`)
+- `color: var(--white);`: Sets the text color for the heading.
+- `margin-bottom: 0.5rem;`: Adds margin to the bottom of the heading.
+- `font-size: 3.5rem;`: Sets the font size for the heading.
+
+#### Paragraph (`p`)
+- `color: var(--secondary-color);`: Sets the text color for the paragraph.
+- `font-size: 1.125rem;`: Sets the font size for the paragraph.
+- `margin-bottom: 2rem;`: Adds margin to the bottom of the paragraph.
+
+#### Button (`a.btn`)
+- `padding: 1rem 2.125rem;`: Sets padding for the button.
+- `color: var(--white);`: Sets the text color for the button.
+- `text-decoration: none;`: Removes underlines from the button text.
+- `background: var(--primary-color);`: Sets the background color for the button.
+- `border: 0.125rem solid var(--primary-color);`: Adds a border to the button.
+- `font-family: Montserrat, sans-serif;`: Specifies the font family for the button.
+- `font-size: 0.75rem;`: Sets the font size for the button.
+- `font-weight: 700;`: Sets the font weight for the button.
+- `border-radius: 0.25rem;`: Adds rounded corners to the button.
+- `-webkit-border-radius: 0.25rem;`: Adds rounded corners for webkit browsers.
+- `-moz-border-radius: 0.25rem;`: Adds rounded corners for Mozilla browsers.
+- `-ms-border-radius: 0.25rem;`: Adds rounded corners for Microsoft browsers.
+- `-o-border-radius: 0.25rem;`: Adds rounded corners for Opera browsers.
+
+#### Hovered Button (`a.btn:hover`)
+- `background: transparent;`: Makes the button background transparent on hover.
+- `color: var(--primary-color);`: Changes the text color to the primary color on hover.
+
