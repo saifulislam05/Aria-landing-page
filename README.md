@@ -1,6 +1,9 @@
 # Aria (Major project) ass CSS
 ## Hosted Link
 You can view the project live at [View Live Project](https://aria-by-saiful-islam.netlify.app/)
+## UI 
+![fullpage-sc](https://github.com/saifulislam05/Aria-landing-page/assets/73392705/b631bc37-0abb-46e7-91f7-0d36fe50511b)
+
 ## Table of Contents
 Click 👆 any section to navigate between that section.
 - [Common styles](#common-styles)
