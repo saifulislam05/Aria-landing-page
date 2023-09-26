@@ -873,11 +873,9 @@ nav {
 .projects .projects-wrapper .single-project:hover img {
     transform: scale(1.2);
 }
-
 .projects .projects-wrapper .single-project:hover::before {
     opacity: 1;
 }
-
 .projects-wrapper .single-project .project-title{
     position: absolute;
     top: 50%;
@@ -899,3 +897,53 @@ nav {
     opacity: 1;
 }
 /* ----Projects section End---- */
+
+/* ----Consultants section Start---- */
+.consultants{
+    padding-top: 6.375rem;
+    padding-bottom: 3.375rem;
+    background: #fbfbfb;
+    text-align: center;
+}
+.consultants .teams-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    padding: 0 1rem;
+}
+.consultants .teams-wrapper .team{
+    width: 12.75rem; 
+    overflow: hidden;
+}
+.consultants .teams-wrapper .team img{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.consultants .teams-wrapper .team img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.teams-wrapper .team .member-name{
+    margin-bottom: 0.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.teams-wrapper .team .job-title{
+    margin-bottom: 0.75rem;
+    color: #484a46;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.teams-wrapper .team .social-icons{
+    width: fit-content;
+    margin: 0 auto;
+}
+/* ----Consultants section End---- */
