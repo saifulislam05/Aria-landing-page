@@ -2,7 +2,7 @@
 ## Hosted Link
 You can view the project live at [View Live Project](https://aria-by-saiful-islam.netlify.app/)
 ## Table of Contents
-###### Click 👆 any section to navigate between that section.
+Click 👆 any section to navigate between that section.
 - [Common styles](#common-styles)
 - [Nav Section](#nav-section)
 - [Header Section](#header-section)
