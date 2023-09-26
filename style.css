@@ -4,87 +4,102 @@
 
 /* --- Montserrat font family ---  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
-:root{
-    --primary-color:#14bf98;
-    --secondary-color:#dfe5ec;
-    --white:#ffffff;
-    --black:#000000;
+
+:root {
+    --primary-color: #14bf98;
+    --secondary-color: #dfe5ec;
+    --white: #ffffff;
+    --black: #000000;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* common classes */
-.container{
+.container {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
     color: #484a46;
 }
-h2 ,h3,h4{
+
+h2,
+h3,
+h4 {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
+
 h2 {
-    font-size: 1.75rem; 
+    font-size: 1.75rem;
 }
+
 h3 {
     color: #484a46;
     font-size: 1.375rem;
 }
+
 h4 {
     color: #484a46;
     font-size: 1.25rem;
 }
+
 p {
-     color: #787976;
-     font-size: 1rem;
-     font-weight: 400;
-     font-family: "Open Sans", sans-serif;
+    color: #787976;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
-.section-title{
+
+.section-title {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
 }
+
 /* ------Nav Section Start------ */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100vw;
-    padding:2.125rem 5rem ;
+    padding: 2.125rem 5rem;
 
 }
-.nav-left-side{
+
+.nav-left-side {
     color: var(--white);
     width: 7.65rem;
     cursor: pointer;
 }
+
 .nav-right-side {
     display: flex;
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     list-style: none;
 }
 
-.nav-items li a{
+.nav-items li a {
     font-size: 0.875rem;
     color: var(--white);
     text-transform: uppercase;
@@ -96,23 +111,26 @@ nav{
     -ms-transition: 0.2s ease;
     -o-transition: 0.2s ease;
 }
-.nav-items .active a{
+
+.nav-items .active a {
     color: var(--primary-color);
 }
-.nav-items li:hover a{
-    color:var(--primary-color) ;
+
+.nav-items li:hover a {
+    color: var(--primary-color);
 }
 
-.social-icons{
+.social-icons {
     display: flex;
 }
+
 .social-icons a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:1.6rem ;
-    height:1.6rem ;
+    width: 1.6rem;
+    height: 1.6rem;
     color: var(--white);
     margin-left: .3rem;
     background: url('/assets/images/hexagon-green.svg') no-repeat;
@@ -123,12 +141,14 @@ nav{
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
-.social-icons a:hover{
+
+.social-icons a:hover {
     background: url('/assets/images/hexagon-white.svg')no-repeat;
     background-size: contain;
     color: var(--primary-color);
 }
-.social-icons a svg{
+
+.social-icons a svg {
     font-size: 0.875rem;
 }
 
@@ -139,42 +159,47 @@ nav{
     padding-top: 14.75rem;
     padding-bottom: 17.75rem;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(/assets/images/header-background.jpg);
+        url(/assets/images/header-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.text-container{
+
+.text-container {
     width: 40%;
-    margin:6.5rem auto 3rem auto;
+    margin: 6.5rem auto 3rem auto;
     text-align: center;
 }
-.hero .text-container h1{
+
+.hero .text-container h1 {
     color: var(--white);
     margin-bottom: 0.5rem;
     font-size: 3.5rem;
 }
-.hero .text-container p{
+
+.hero .text-container p {
     color: var(--secondary-color);
     font-size: 1.125rem;
     margin-bottom: 2rem;
 }
-.hero .text-container .btn{
+
+.hero .text-container .btn {
     padding: 1rem 2.125rem;
     color: var(--white);
     text-decoration: none;
-    background:var(--primary-color) ;
+    background: var(--primary-color);
     border: 0.125rem solid var(--primary-color);
     font-family: Montserrat, sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
-    border-radius:0.25rem ;
-    -webkit-border-radius:0.25rem ;
-    -moz-border-radius:0.25rem ;
-    -ms-border-radius:0.25rem ;
-    -o-border-radius:0.25rem ;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
 
 }
-.hero .text-container .btn:hover{
+
+.hero .text-container .btn:hover {
     background: transparent;
     color: var(--primary-color);
 }
@@ -182,32 +207,39 @@ nav{
 /* ------Hero Section End------ */
 
 /* ------Intro Section Start------ */
-.intro{
-    padding:6.875rem 0 3rem 0;
+.intro {
+    padding: 6.875rem 0 3rem 0;
 }
+
 /* intro-1 start from here  */
-.intro .intro-1{
+.intro .intro-1 {
     display: flex;
     justify-content: space-between;
 }
-.intro .text-side{
+
+.intro .text-side {
     width: 40%;
 }
-.intro .text-side h2{
+
+.intro .text-side h2 {
     margin-bottom: 1.375rem;
 }
-.intro .text-side p{
+
+.intro .text-side p {
     margin-bottom: 1rem;
 }
-.intro .text-side .testimonial-text{
+
+.intro .text-side .testimonial-text {
     font-style: italic;
 }
-.intro .text-side .testimonial-author{
+
+.intro .text-side .testimonial-author {
     font-size: 1rem;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
 }
-.intro .intro-1 .image-box{
+
+.intro .intro-1 .image-box {
     width: 55%;
     overflow: hidden;
     border-radius: 0.25rem;
@@ -216,7 +248,8 @@ nav{
     -ms-border-radius: 0.25rem;
     -o-border-radius: 0.25rem;
 }
-.intro .intro-1 .image-box img{
+
+.intro .intro-1 .image-box img {
     width: 100%;
     transition: all .3s;
     -webkit-transition: all .3s;
@@ -224,122 +257,144 @@ nav{
     -ms-transition: all .3s;
     -o-transition: all .3s;
 }
-.intro .intro-1 .image-box img:hover{
+
+.intro .intro-1 .image-box img:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 /* - cards-wrapper starts form here  */
-.cards-wrapper{
+.cards-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 2.875rem;
 }
-.cards-wrapper .card{
+
+.cards-wrapper .card {
     max-width: 21rem;
 }
-.cards-wrapper .card .icon-box{
+
+.cards-wrapper .card .icon-box {
     width: 6rem;
     height: 6rem;
     background: url(/assets/images/hexagon-green.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:6rem 6rem ;
+    background-size: 6rem 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
 }
-.cards-wrapper .card .icon-box svg{
+
+.cards-wrapper .card .icon-box svg {
     font-size: 2rem;
     color: var(--white);
 }
-.cards-wrapper .card .card-title{
+
+.cards-wrapper .card .card-title {
     margin-bottom: 0.875rem;
 }
+
 /* ------Intro Section End------ */
 
 /* ------Services Section Start------ */
-.services{
-    padding-top: 6.625rem ;
+.services {
+    padding-top: 6.625rem;
     padding-bottom: 6.25rem;
     background: #fbfbfb;
 }
-.services .section-title{
+
+.services .section-title {
     text-align: center;
 }
-.services h2{
+
+.services h2 {
     text-align: center;
     margin-bottom: 3.25rem;
 }
-.services-card-wrapper{
+
+.services-card-wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
 }
-.services-card-wrapper .card{
+
+.services-card-wrapper .card {
     max-width: 20.875rem;
-    background:#fff ;
+    background: #fff;
     border: 1px solid #ebe8e8;
-    border-radius:0.375rem;
-    -webkit-border-radius:0.375rem;
-    -moz-border-radius:0.375rem;
-    -ms-border-radius:0.375rem;
-    -o-border-radius:0.375rem;
+    border-radius: 0.375rem;
+    -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    -ms-border-radius: 0.375rem;
+    -o-border-radius: 0.375rem;
 }
-.card-image{
+
+.card-image {
     overflow: hidden;
     border-top-left-radius: 0.375rem;
     border-top-right-radius: 0.375rem;
 
     width: 100%;
 }
-.card-body{
+
+.card-body {
     width: 100%;
-    padding: 2.25rem 2rem; 
+    padding: 2.25rem 2rem;
 }
-.card-body .card-title{
+
+.card-body .card-title {
     text-align: center;
     margin-bottom: 0.75rem;
 }
-.card-body p{
+
+.card-body p {
     margin-bottom: 1rem;
 }
-.card-body ul{
+
+.card-body ul {
     margin-bottom: 1.5rem;
     list-style: none;
 }
-.card-body ul li{
+
+.card-body ul li {
     display: flex;
     align-items: center;
     margin-bottom: 0.375rem;
 }
-.card-body ul li svg{
+
+.card-body ul li svg {
     color: var(--primary-color);
     font-size: 0.5rem;
     margin-right: 0.625rem;
 }
-.card-body .price{
+
+.card-body .price {
     color: #484a46;
     font-size: 1rem;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
-.card-body .price span{
+
+.card-body .price span {
     color: var(--primary-color);
 }
-.card .button-container{
+
+.card .button-container {
     margin-top: -1.375rem;
     text-align: center;
 }
-.card .button-container .btn{
+
+.card .button-container .btn {
     padding: .7rem 1.875rem;
     background: var(--primary-color);
     color: var(--white);
@@ -353,14 +408,17 @@ nav{
     -ms-border-radius: 0.25rem;
     -o-border-radius: 0.25rem;
 }
+
 /* ------Services Section End------ */
 
 /* ------Accordian Section Start------ */
-.accordian{
+.accordian {
     width: 100%;
+    height: 34.625rem;
     display: flex;
 }
-.accordian .image-side{
+
+.accordian .image-side {
     width: 50%;
     height: inherit;
     background: url(/assets/images/accrodian-1bg.jpg);
@@ -369,22 +427,26 @@ nav{
     background-repeat: no-repeat;
 }
 
-.accordian .content-side{
+.accordian .content-side {
     width: 50%;
 }
-.accordian .accordion-container{
+
+.accordian .accordion-container {
     padding-top: 6.375rem;
     width: 88%;
     max-width: 28rem;
     margin-left: 5rem;
 }
-.accordian h2{
+
+.accordian h2 {
     margin-bottom: 1.625rem;
 }
-.accordian .content-side .item{
+
+.accordian .content-side .item {
     margin-bottom: 2rem;
 }
-.accordian-heading .circle-numbering{
+
+.accordian-heading .circle-numbering {
     display: inline-block;
     width: 2.25rem;
     height: 2.25rem;
@@ -392,7 +454,7 @@ nav{
     border: 0.125rem solid #484a46;
     border-radius: 50%;
     color: #484a46;
-    font: 700 1rem/2.125rem "Montserrat",sans-serif;
+    font: 700 1rem/2.125rem "Montserrat", sans-serif;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -402,28 +464,225 @@ nav{
     -ms-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
 }
+
 .accordian-heading .accordion-title {
     display: inline-block;
     margin-top: 0.125rem;
     margin-bottom: 0.25rem;
     color: #484a46;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     vertical-align: middle;
     cursor: pointer;
     transition: all 0.2s ease
 }
-.accordion-para{
+
+.accordion-para {
     margin-left: 3.125rem;
 }
 
-.active .accordian-heading .circle-numbering{
+.active .accordian-heading .circle-numbering {
     border-color: var(--primary-color);
     background: var(--primary-color);
     color: var(--white);
 }
-.active .accordian-heading .accordion-title{
+
+.active .accordian-heading .accordion-title {
     color: var(--primary-color);
 }
+
 /* ------Accordian Section End------ */
+
+/* ---Tab section start--- */
+
+.tab-section {
+    width: 100%;
+    height: 36.125rem;
+    display: flex;
+}
+
+.tab-section .image-side {
+    width: 50%;
+    height: inherit;
+    background: url(/assets/images/accrodian-2bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.tab-section .content-side {
+    width: 50%;
+}
+
+.tab-content-container {
+    padding-top: 6.375rem;
+    width: 88%;
+    max-width: 28rem;
+    margin-left: 5rem;
+}
+
+.tab-items {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.tab-items .item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tab-items .item svg {
+    color: #c1cace;
+    font-size: 1rem;
+    margin-right: .525rem;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.tab-items .item span {
+    color: #c1cace;
+    font-size: 1.375rem;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.tab-items .item.active *{
+    color: var(--primary-color);
+}
+
+.tab-items .item:hover * {
+    color: var(--primary-color);
+}
+.tab-content-panel h4{
+    color: #484a46;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: .5rem;
+}
+.tab-content-panel p{
+    color: #787976;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+.tab-content-panel p a{
+    color: var(--primary-color);
+}
+.progress-title{
+    color: #484a46;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    margin-bottom: .25rem;
+}
+.progress{
+    height:1.375rem ;
+    margin-bottom: 1.375rem;
+    background: #f9fafc;
+    border-radius: 0.125rem;
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    -ms-border-radius: 0.125rem;
+    -o-border-radius: 0.125rem;
+}
+.progress .progress-bar{
+    height: 100%;
+    background: linear-gradient(to bottom right, #14bf98, #1bd1a7);
+    border-radius: 0.125rem;
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    -ms-border-radius: 0.125rem;
+    -o-border-radius: 0.125rem;
+}
+.progress-1 .progress-bar{
+    width: 100%;
+}
+.progress-2 .progress-bar{
+    width: 76%;
+}
+.progress-3 .progress-bar{
+    width: 90%;
+}
+/* ---Tab section End--- */
+
+/* ------Customer-Testimonial Section Start------ */
+.testimonial{
+    padding: 6.375rem 0 6.5rem 0;
+    text-align: center;
+}
+.testimonial h2{
+    margin-bottom:0.75rem ;
+}
+.testimonial .p-heading{
+    width: 55%;
+    margin: 0 auto  3.5rem auto;
+}
+.left-arrow, .right-arrow{
+    width: 1.375rem;
+}
+.swipper{
+    width: 100%;
+    position: relative;
+}
+.swipper-wrapper{
+    display: flex;
+    overflow: scroll;
+    gap: 55px;
+}
+.swipper-wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.swipper-card{
+    min-width: 319.667px;
+    margin-right: 20px;
+}
+.swipper-card .customer-image img{
+    width:6rem ;
+    height:6rem ;
+    margin: 0 auto 0.5rem auto;
+    border-bottom: 0.25rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testimonial-text{
+    margin-bottom: 0.625rem;
+    font-style: italic;
+    word-wrap: break-word;
+}
+.testimonial-author{
+    color: #484a46;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat" ,sans-serif;
+}
+
+.swipper-btn{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #787976;
+    font-weight: 400;
+}
+.swipper-left-btn{
+    left: -2rem;
+}
+.swipper-right-btn{
+    right: -2rem;
+}
+/* ------Customer-Testimonial Section End------ */
