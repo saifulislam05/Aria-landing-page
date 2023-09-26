@@ -781,3 +781,121 @@ nav {
     background: transparent;
 }
 /* ----Call Me section End---- */
+
+/* ----Projects section Start---- */
+.projects{
+    padding-top: 6.5rem;
+    padding-bottom: 7rem;
+}
+.projects .section-title,.projects h2{
+    text-align: center;
+}
+.projects .filter-tabs{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 0.875rem;
+
+}
+.projects .filter-tabs .tab{
+    text-transform: uppercase;
+    padding:0.3125rem 1.375rem ;
+    color: #7b7e85;
+    background: #f1f4f7;
+    font-weight: 700;
+    font-size: 0.75rem;
+    font-family: "Montserrat" , sans-serif;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.projects .filter-tabs .tab:first-child{
+    color: var(--white);
+    background: var(--primary-color);
+}
+.projects .filter-tabs .tab:hover{
+    color: var(--white);
+    background: var(--primary-color);
+}
+
+.projects .projects-wrapper{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.projects .projects-wrapper .single-project {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.projects .projects-wrapper .single-project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+}
+
+.projects .projects-wrapper .single-project img {
+    z-index: -1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.projects .projects-wrapper .single-project:hover img {
+    transform: scale(1.2);
+}
+
+.projects .projects-wrapper .single-project:hover::before {
+    opacity: 1;
+}
+
+.projects-wrapper .single-project .project-title{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: var(--white);
+    z-index: 4;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.projects .projects-wrapper .single-project:hover .project-title{
+    opacity: 1;
+}
+/* ----Projects section End---- */
